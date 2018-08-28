@@ -1,0 +1,29 @@
+.signature-box
+{
+    border: 3px solid black;
+}
+
+.signature-box-header
+{
+    height: 30px;
+    background-color: #000000;
+    color: #fefefe;
+}
+
+.signature-box-header-title
+{
+    vertical-align: sub;
+    margin-left: 10px;
+}
+
+.signature-box-header-button
+{
+    font-size: 12pt;
+    vertical-align: middle;
+    margin-right: 5px;
+}
+
+.signature-box-body
+{
+    background-color:#fefefe;
+}

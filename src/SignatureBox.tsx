@@ -105,16 +105,16 @@ class SignatureBox extends React.Component<any, any>
         options.penColor = "#000000";
         options.redrawOnResize= true;
         options.onEnd = this.strokeEnd.bind(this);
-        
-
-        //create an array of SFKResultListItem classes for the data
+    
         var self = this;
+
+        var title = this.getAttribute("Title") || "Signature - please draw your signature in the area below";
         
 
         return <div className="signature-box">
                     <div className="signature-box-header">
                         <div style={{float:'left'}}>
-                            <span className="signature-box-header-title">Signature - please draw your signature in the area below</span>
+                            <span className="signature-box-header-title">{title}}</span>
                         </div>
                         <div style={{float:'right'}}>
                             <span className="glyphicon glyphicon-remove signature-box-header-button" onClick={this.clearSignature.bind(this)}></span>

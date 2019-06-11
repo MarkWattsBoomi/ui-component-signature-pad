@@ -33,4 +33,4 @@ e.g.
 
 You can add attributes to the component to control it's appearance: -
 
-- Title  - String - A string to use as the signature box's title
+- title  - String - A string to use as the signature box's title
